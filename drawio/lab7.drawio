@@ -1,24 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T17:29:57.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="GMvnuS3lpuAOY0jzwx84" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-04T04:16:11.809Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xwGWRXELG93frcb1i6dQ" version="20.2.7" type="github">
   <diagram id="95sVJ0odP7MM4Z1XPq-E" name="Page-1">
-    <mxGraphModel dx="893" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="drSC5kL2H_sf2_eazbfS-2" value="Account" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="200" y="100" width="330" height="470" as="geometry">
+        <mxCell id="drSC5kL2H_sf2_eazbfS-2" value="Account" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="600" height="470" as="geometry">
             <mxRectangle x="200" y="100" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="drSC5kL2H_sf2_eazbfS-7" value="- name : String&lt;br&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;- accountNumber : int&lt;br&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;- amount : double&lt;br&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;+ numberOfAccounts : int" style="text;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacing=2;spacingTop=0;html=1;horizontal=1;fontSize=14;" vertex="1" parent="drSC5kL2H_sf2_eazbfS-2">
-          <mxGeometry x="10" y="40" width="180" height="130" as="geometry" />
+        <mxCell id="drSC5kL2H_sf2_eazbfS-7" value="- name : String&lt;br&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;- accountNumber : int&lt;br&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;- amount : double&lt;br&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;u&gt;+ numberOfAccounts : int&lt;/u&gt;" style="text;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacing=2;spacingTop=0;html=1;horizontal=1;fontSize=14;" parent="drSC5kL2H_sf2_eazbfS-2" vertex="1">
+          <mxGeometry x="10" y="30" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="drSC5kL2H_sf2_eazbfS-8" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;+ Account 0&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ Account (name: String , accountNumber : int,&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;amount : double , numberOfAccounts : int)&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ deposit (another:double) : double&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ withdraw (another:double) : double&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ calculatelnterest () : double&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ toString () : String&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ equals (another:Account) : boolean&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="drSC5kL2H_sf2_eazbfS-2">
-          <mxGeometry x="10" y="200" width="310" height="270" as="geometry" />
+        <mxCell id="drSC5kL2H_sf2_eazbfS-8" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;+ Account 0&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ Account (name: String , accountNumber : int,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;amount : double , numberOfAccounts : int)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ deposit (another:double) : double&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ withdraw (another:double) : double&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ calculatelnterest () : double&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ toString () : String&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;+ equals (another:Account) : boolean&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;labelBackgroundColor=none;" parent="drSC5kL2H_sf2_eazbfS-2" vertex="1">
+          <mxGeometry x="10" y="200" width="580" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="drSC5kL2H_sf2_eazbfS-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+        <mxCell id="drSC5kL2H_sf2_eazbfS-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="280" as="sourcePoint" />
-            <mxPoint x="530" y="280" as="targetPoint" />
+            <mxPoint x="80" y="340" as="sourcePoint" />
+            <mxPoint x="680" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
